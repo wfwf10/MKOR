@@ -26,17 +26,19 @@ In the following table, we provide comparison between federated learning with [F
 | test accuracy | 89.1\% | 91.68\% | 85.59\% | 85.59\% |
 
 # Required packages installation
-We use python==3.6.9, numpy==1.19.5, torch==1.4.0, torchvision==0.5.0, and CUDA version 11.6. The dataset and the source model will be automatically downloaded.
+We use the following packages in the code. The dataset will be automatically downloaded. The computation on a batch size 100 typically takes about 2 minutes on CPU.
+torch: 1.13.0+cu117
+torchvision: 0.14.0+cu117
+torch.version.cuda: 11.7
+matplotlib: 3.1.1
+os.name: posix
+numpy: 1.17.3
+torchmetrics: 0.11.0
+Device: cpu
+
 
 # Citation
 If you find our work useful in your research, please consider citing:
 ```
-@inproceedings{wang2022communication,
-  title={Communication-Efficient and Privacy-Preserving Feature-based Federated Transfer Learning},
-  author={Wang, Feng and Gursoy, M Cenk and Velipasalar, Senem},
-  booktitle={GLOBECOM 2022-2022 IEEE Global Communications Conference},
-  pages={3875--3880},
-  year={2022},
-  organization={IEEE}
-}
+todo
 ```

@@ -2,13 +2,15 @@
 
 This is the offical implementation for Python simulation of Maximum Knowledge Orthogonality Reconstruction (MKOR), from the following paper: 
 
-  Maximum Knowledge Orthogonality Reconstruction with Gradients in Federated Learning.([WACV2024](accepted), [arXiv](todo))  
+  Maximum Knowledge Orthogonality Reconstruction with Gradients in Federated Learning.([WACV2024](accepted, todo: weblink), [arXiv](todo: weblink))  
 Feng Wang Senem Velipasalar, and M. Cenk Gursoy  
 Department of Electrical Engineering and Computer Science, Syracuse University
 
 ---
 
-<img src="https://github.com/wfwf10/Feature-based-Federated-Transfer-Learning/blob/main/diagrams/FbFTL_diagram.png" width="644" height="501">
+<img src="https://github.com/wfwf10/MKOR/blob/main/diagrams/dense_decouple.pdf">
+
+<img src="https://github.com/wfwf10/MKOR/blob/main/diagrams/conv_orthogonal_largeFont.pdf">
 
 We propose the FbFTL as an innovative federated learning approach that upload features and outputs instead of gradients to reduce the uplink payload by more than five orders of magnitude. Please refer to the paper for explicit explaination on learning structure, system design, and privacy analysis.
 
@@ -24,6 +26,8 @@ In the following table, we provide comparison between federated learning with [F
 | total uplink payload | **3216 Tb** | **949 Tb** | **599 Tb** | **6.6 Gb** |
 | total downlink payload | 402 Tb | 253 Tb | 322 Tb | 3.8 Gb |
 | test accuracy | 89.1\% | 91.68\% | 85.59\% | 85.59\% |
+
+<img src="https://github.com/wfwf10/MKOR/blob/main/diagrams/outputs.pdf">
 
 # Required packages installation
 We use the following packages in the code. The dataset will be automatically downloaded. The computation on a batch size 100 typically takes about 2 minutes on CPU.

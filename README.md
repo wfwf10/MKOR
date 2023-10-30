@@ -23,7 +23,21 @@ Qualitative comparison between different input reconstruction methods on CIFAR-1
 # Required packages installation
 We use the following packages in the code. The dataset will be automatically downloaded. The computation on a batch size 100 typically takes about 2 minutes on CPU.
 
-torch: 1.13.0+cu117, torchvision: 0.14.0+cu117, torch.version.cuda: 11.7, matplotlib: 3.1.1, os.name: posix, numpy: 1.17.3, torchmetrics: 0.11.0, Device: cpu
+torch: 1.13.0+cu117
+
+torchvision: 0.14.0+cu117
+
+torch.version.cuda: 11.7
+
+matplotlib: 3.1.1
+
+os.name: posix
+
+numpy: 1.17.3
+
+torchmetrics: 0.11.0
+
+Device: cpu
 
 
 # Citation

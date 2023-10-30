@@ -14,9 +14,9 @@ We propose the MKOR as an innovative as a novel federated learning (FL) input re
 
 <img src="https://github.com/wfwf10/MKOR/blob/main/diagrams/conv_orthogonal_largeFont.png" width="1046">
 
-Experiments have demonstrated that MKOR outperforms other baselines on large batches of the MNIST dataset with LeNet model, and on CIFAR-100 and ImageNet datasets with a VGG16 model by providing better reconstructed images both qualitatively and quantitatively. Our results encourage further research on the protection of data privacy in FL. Please refer to the paper for more experiment results, explicit explaination on learning structure, system design, and privacy analysis.
+Experiments have demonstrated that MKOR outperforms other baselines on large batches of the MNIST dataset with LeNet model, and on CIFAR-100 and ImageNet datasets with a VGG16 model by providing better reconstructed images both qualitatively and quantitatively. Our results encourage further research on the protection of data privacy in FL. 
 
-Qualitative comparison between different input reconstruction methods on CIFAR-100 for a batch size of 100:
+The following is the qualitative comparison between different input reconstruction methods on CIFAR-100 for a batch size of 100. Please refer to the paper for more experiment results, explicit explaination on learning structure, system design, and privacy analysis.
 
 <img src="https://github.com/wfwf10/MKOR/blob/main/diagrams/outputs.png" width="644">
 

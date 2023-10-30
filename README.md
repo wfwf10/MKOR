@@ -10,7 +10,7 @@ Department of Electrical Engineering and Computer Science, Syracuse University
 
 <img src="https://github.com/wfwf10/MKOR/blob/main/diagrams/dense_decouple.png" width="644">
 
-<img src="https://github.com/wfwf10/MKOR/blob/main/diagrams/conv_orthogonal_largeFont.png" width="644">
+<img src="https://github.com/wfwf10/MKOR/blob/main/diagrams/conv_orthogonal_largeFont.png" width="1046">
 
 We propose the FbFTL as an innovative federated learning approach that upload features and outputs instead of gradients to reduce the uplink payload by more than five orders of magnitude. Please refer to the paper for explicit explaination on learning structure, system design, and privacy analysis.
 

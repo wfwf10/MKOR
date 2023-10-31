@@ -43,5 +43,12 @@ Device: cpu
 # Citation
 If you find our work useful in your research, please consider citing:
 ```
-todo
+@misc{wang2023maximum,
+      title={Maximum Knowledge Orthogonality Reconstruction with Gradients in Federated Learning}, 
+      author={Feng Wang and Senem Velipasalar and M. Cenk Gursoy},
+      year={2023},
+      eprint={2310.19222},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```

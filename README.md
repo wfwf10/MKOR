@@ -2,7 +2,7 @@
 
 This is the offical implementation for Python simulation of Maximum Knowledge Orthogonality Reconstruction (MKOR), from the following paper: 
 
-  Maximum Knowledge Orthogonality Reconstruction with Gradients in Federated Learning.([WACV2024](accepted), [arXiv](https://arxiv.org/abs/2310.19222))  
+  Maximum Knowledge Orthogonality Reconstruction with Gradients in Federated Learning.([WACV2024]accepted, [arXiv](https://arxiv.org/abs/2310.19222))  
 Feng Wang Senem Velipasalar, and M. Cenk Gursoy  
 Department of Electrical Engineering and Computer Science, Syracuse University
 

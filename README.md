@@ -21,7 +21,7 @@ The following is the qualitative comparison between different input reconstructi
 <img src="https://github.com/wfwf10/MKOR/blob/main/diagrams/outputs.png" width="644">
 
 # Required packages installation
-We use the following packages in the code. The dataset will be automatically downloaded. The computation on a batch size 100 typically takes about 2 minutes on CPU.
+We use the following packages in the code. The dataset will be automatically downloaded (except ImageNet dataset should be manually downloaded from https://image-net.org/challenges/LSVRC/2012/2012-downloads.php). The computation on a batch size 100 typically takes about 2 minutes on CPU.
 
 torch: 1.13.0+cu117
 

@@ -2,7 +2,7 @@
 
 This is the offical implementation for Python simulation of Maximum Knowledge Orthogonality Reconstruction (MKOR), from the following paper: 
 
-  Maximum Knowledge Orthogonality Reconstruction with Gradients in Federated Learning.([WACV2024]accepted, [arXiv](https://arxiv.org/abs/2310.19222))  
+  Maximum Knowledge Orthogonality Reconstruction with Gradients in Federated Learning.([WACV2024](https://openaccess.thecvf.com/content/WACV2024/html/Wang_Maximum_Knowledge_Orthogonality_Reconstruction_With_Gradients_in_Federated_Learning_WACV_2024_paper.html), [arXiv](https://arxiv.org/abs/2310.19222))  
 Feng Wang Senem Velipasalar, and M. Cenk Gursoy  
 Department of Electrical Engineering and Computer Science, Syracuse University
 
@@ -43,12 +43,12 @@ Device: cpu
 # Citation
 If you find our work useful in your research, please consider citing:
 ```
-@misc{wang2023maximum,
-      title={Maximum Knowledge Orthogonality Reconstruction with Gradients in Federated Learning}, 
-      author={Feng Wang and Senem Velipasalar and M. Cenk Gursoy},
-      year={2023},
-      eprint={2310.19222},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@InProceedings{Wang_2024_WACV,
+    author    = {Wang, Feng and Velipasalar, Senem and Gursoy, M. Cenk},
+    title     = {Maximum Knowledge Orthogonality Reconstruction With Gradients in Federated Learning},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {3884-3893}
 }
 ```
